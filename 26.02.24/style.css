@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+.carousel-item{
+position: relative;
+display: none;
+    height: 32rem;
+    background-color: #777;
+}
+
+.carousel-item > img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 32rem;
+}
+.row{
+    padding: 30px;
+    text-align: center;
+
+}
+
+ body{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    color:#5a5a5a;
+    background-color: #fff;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+    
+ }
+
+ .footer{
+    justify-content: end;
+ }
+ h5{
+    font-size: 2.5rem;
+    margin: 0px 0px 8px;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+    line-height: 1.2;
+ }
+
+ .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+    color: #fff;
+ }
+ .float-right a{
+    
+ }
